@@ -11,19 +11,19 @@ public class TestBase {
     WebDriver wd;
 
     @BeforeSuite
-    public void init (){
-        wd=new ChromeDriver();
+    public void init() {
+        wd = new ChromeDriver();
         wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/home");
         wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
 
     @AfterSuite
-    public void tearDown(){
+    public void tearDown() {
         wd.quit();
     }
 
     public boolean isElementPresent(By locator) {
-        return wd.findElements(locator).size()>0;
+        return wd.findElements(locator).size() > 0;
     }
 
     public void submitRegistration() {
@@ -32,11 +32,11 @@ public class TestBase {
 
     public void fillLoginRegistrationForm(String email, String password) {
         type(By.xpath("//input[1]"), email);
-        type(By.xpath("//input[2]"),password);
+        type(By.xpath("//input[2]"), password);
     }
 
-    public void type (By locator, String text){
-        if(text !=null){
+    public void type(By locator, String text) {
+        if (text != null) {
             WebElement element = wd.findElement(locator);
             element.click();
             element.clear();
@@ -49,11 +49,11 @@ public class TestBase {
         click(By.xpath("//a[text()='LOGIN']"));
     }
 
-    public  void click(By locator){
+    public void click(By locator) {
         wd.findElement(locator).click();
     }
 
-    public void submitLogin(){
+    public void submitLogin() {
         click(By.xpath("//button[1]"));
     }
 
@@ -65,10 +65,6 @@ public class TestBase {
             e.printStackTrace();
         }
     }
-
-    //public boolean isLogged() {
-
-    //}
-
 }
+
 

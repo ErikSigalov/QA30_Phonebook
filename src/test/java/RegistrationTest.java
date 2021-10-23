@@ -14,11 +14,28 @@ public class RegistrationTest extends TestBase{
     WebDriver wd;
 
     @BeforeMethod
+   // public void preCondition(){
+       // if(islogged()){
+        //   logout();
+        //}
+    //}
+
+    //public boolean islogged() {
+    //    return true;
+    //}
+
+    //public void logout() {
+       // click(By.xpath("//button[text()='Sign Out']"));
+    //}
+
+
     public void init(){
         wd = new ChromeDriver();
         wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/home");
         wd.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
     }
+
+
     @Test
     public void registrationTestPositive(){
 
