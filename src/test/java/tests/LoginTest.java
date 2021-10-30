@@ -1,5 +1,6 @@
 package tests;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,36 +14,22 @@ public class LoginTest extends TestBase {
     WebDriver wd;
 
     @BeforeMethod
-    //public void preCondition() {
-      //  if (isLogged()) {
-      //      logout();
-      //  }
-   // }
-
-    public void init(){
-      wd=new ChromeDriver();
-       wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/home");
+    public void preCondition(){
+        if(app.getUser().isLogged()){
+            app.getUser().logout();
+        }
     }
-
-    @Test
-    public void loginPositiveTest() {
-
-       // wd.findElement(By.xpath("//button[1]")).click();
-        //Assert if button Logout is
-
-
-       // Assert.assertTrue(wd.findElements(By.xpath("//button[text()='Sign Out']")).size() > 0);
-
-    }
-
 
     @Test
     public void loginTest2() {
+        User user = new User().withEmail("eriknet201@mail.ru").withPassword("Erik12345$");
+
         String email = "erik201@mail.ru";
         String password = "Erik12345$";
 
         app.getUser().openLoginRegistrationForm();
-        app.getUser().fillLoginRegistrationForm(email, password);
+        //app.getUser().fillLoginRegistrationForm(email, password);
+        app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitLogin();
         app.getUser().pause(5000);
 

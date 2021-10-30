@@ -9,12 +9,13 @@ protected static ApplicationManager app = new ApplicationManager();
 
 
     @BeforeSuite
-    public void setuUp() {
+    public void setUp() {
         app.init();
     }
 
     @AfterSuite
     public void tearDown() {
+
         app.stop();
     }
 

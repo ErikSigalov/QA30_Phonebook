@@ -24,8 +24,8 @@ public class RegistrationTest extends TestBase{
     public void registrationTestPositive(){
 
         int i=(int) (System.currentTimeMillis()/1000)%3600;
-        String email = "erik201"+i+"@mail.ru";
-        String password ="Erik12345$";
+        String email = "david"+ i + "@gmail.com";
+        String password ="David123$";
         System.out.println("Email: " +email);
 
         app.getUser().openLoginRegistrationForm();
@@ -40,17 +40,19 @@ public class RegistrationTest extends TestBase{
     @Test
     public void RegistrationTestWrongEmail() {
         int i =(int) (System.currentTimeMillis()/1000)%3600;
-        String email = "erik201"+ "i" + "mail.ru";
-        String password = "Erik12345$";
+        String email = "david" + i + "gmail.com";
+        String password = "David123$";
         System.out.println("Email:" + email);
 
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(email,password);
         app.getUser().submitRegistration();
 
-        app.getUser().pause(5000);
+        app.getUser().pause(2000);
         //Assert.assertFalse(isElementPresent(By.xpath("//button[text()='Sign Out']")));
-        Assert.assertFalse(app.getUser().isLogged());
+        //Assert.assertFalse(app.getUser().isLogged());
+        Assert.assertTrue(app.getUser().isErrorMessageWrongFormat());
+        Assert.assertTrue(app.getUser().isAlertPresent());
     }
 
 

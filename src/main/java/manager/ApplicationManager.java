@@ -10,6 +10,7 @@ public class ApplicationManager {
     HelperUser user;
 
 
+
     public void init(){
         wd = new ChromeDriver();
         wd.manage().window().maximize();
@@ -20,10 +21,14 @@ public class ApplicationManager {
 
 
     public void stop() {
+
         wd.quit();
     }
 
     public HelperUser getUser() {
+
         return user;
     }
+
+
 }
