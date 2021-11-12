@@ -27,6 +27,8 @@ public class RegistrationTest extends TestBase{
         String email = "david"+ i + "@gmail.com";
         String password ="David123$";
         System.out.println("Email: " +email);
+        logger.info("Test Registration Positive starts with >>>" + email + "&&&&" + password);
+
 
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(email,password);

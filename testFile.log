@@ -1,0 +1,6 @@
+18694 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+38731 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with >>>david626@gmail.com&&&&David123$
+46595 [Test worker] INFO  manager.ApplicationManager - Tests passed
+23:14:40 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+23:15:00 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with >>>david900@gmail.com&&&&David123$
+23:15:10 [Test worker] INFO  manager.ApplicationManager - Tests passed

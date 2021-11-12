@@ -43,6 +43,7 @@ public class HelperUser extends HelperBase {
 
     }
     public void logout(){
+
         click(By.xpath("//button[text()='Sign Out']"));
     }
 
@@ -72,5 +73,13 @@ public class HelperUser extends HelperBase {
 
         return error.contains("Wrong email or password format");
 
+    }
+
+    public void login(User user) {
+        openLoginRegistrationForm();
+
+        fillLoginRegistrationForm(user);
+        submitLogin();
+        pause(5000);
     }
 }
