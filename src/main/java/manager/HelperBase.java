@@ -1,8 +1,13 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+
+
+import com.google.common.io.Files;
+
+import java.io.File;
+import java.io.IOException;
+
 
 public class HelperBase {
     WebDriver wd;
@@ -34,6 +39,16 @@ public class HelperBase {
             Thread.sleep(millis);
         } catch (InterruptedException e) {
             e.printStackTrace();
+        }
+    }
+    public void takeScreenshot(String link){
+        File tmp = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+        File screenshot = new File(link);
+
+        try{
+            Files.copy(tmp,screenshot);
+        }catch (IOException exception){
+            exception.printStackTrace();
         }
     }
 }

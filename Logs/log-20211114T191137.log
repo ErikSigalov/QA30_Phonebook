@@ -1,0 +1,18 @@
+19:12:07 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+19:12:14 [Test worker] INFO  tests.TestBase - Start test -->registrationTestPositive
+19:12:14 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+19:12:29 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+19:12:29 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with >>>david749@gmail.com
+19:12:29 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with >>>David123$
+19:12:29 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()='LOGIN']
+19:12:30 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()='LOGIN']was found
+19:12:31 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //input[1]
+19:12:31 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1]was found
+19:12:33 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //input[2]
+19:12:33 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2]was found
+19:12:35 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[2]
+19:12:35 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[2]was found
+19:12:35 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+19:12:37 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+19:12:37 [Test worker] INFO  tests.TestBase - **********************************
+19:12:37 [Test worker] INFO  manager.ApplicationManager - Tests passed

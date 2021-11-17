@@ -34,12 +34,13 @@ public class HelperUser extends HelperBase {
     }
 
     public void openLoginRegistrationForm() {
+
         click(By.xpath("//a[text()='LOGIN']"));
     }
 
 
     public boolean isLogged() {
-        return isElementPresent(By.xpath("//button[text()='Sign Out']"));
+        return isElementPresent(By.xpath("//a[normalize-space()='LOGIN']"));
 
     }
     public void logout(){
@@ -81,5 +82,10 @@ public class HelperUser extends HelperBase {
         fillLoginRegistrationForm(user);
         submitLogin();
         pause(5000);
+    }
+
+
+    public boolean isMainContactPagePresent() {
+        return isElementPresent(By.xpath("//div[@class='contact-page_main__32Irj']"));
     }
 }
