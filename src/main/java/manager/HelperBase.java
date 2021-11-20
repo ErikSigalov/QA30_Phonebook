@@ -4,6 +4,10 @@ import org.openqa.selenium.*;
 
 
 import com.google.common.io.Files;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,6 +15,7 @@ import java.io.IOException;
 
 public class HelperBase {
     WebDriver wd;
+    Logger logger = LoggerFactory.getLogger(HelperBase.class);
 
     public HelperBase(WebDriver wd) {
         this.wd = wd;
@@ -50,5 +55,13 @@ public class HelperBase {
         }catch (IOException exception){
             exception.printStackTrace();
         }
+    }
+    public void should(By locator,int time){
+        new WebDriverWait(wd,time)
+                .until(ExpectedConditions.visibilityOf(wd.findElement(locator)));
+    }
+
+    public boolean shouldHave(By locator,String text,int time){
+        return new WebDriverWait(wd,time).until(ExpectedConditions.textToBePresentInElement(wd.findElement(locator),text));
     }
 }

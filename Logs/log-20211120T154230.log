@@ -1,0 +1,136 @@
+15:42:56 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+15:43:11 [Test worker] INFO  tests.TestBase - Start test -->loginTest2
+15:43:11 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+15:43:21 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+15:43:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()='LOGIN']
+15:43:21 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()='LOGIN']was found
+15:43:22 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //input[1]
+15:43:22 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1]was found
+15:43:22 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //input[2]
+15:43:22 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2]was found
+15:43:23 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[1]
+15:43:23 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[1]was found
+15:43:28 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+15:43:28 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+15:43:28 [Test worker] INFO  tests.TestBase - **********************************
+15:43:28 [Test worker] INFO  tests.TestBase - Start test -->addNewContactTest
+15:43:28 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+15:43:28 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+15:43:28 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[@href='/add']
+15:43:28 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[@href='/add']was found
+15:43:28 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[@href='/add']
+15:43:28 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[@href='/add']was found
+15:43:29 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Name']
+15:43:29 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name']was found
+15:43:29 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Last Name']
+15:43:29 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name']was found
+15:43:29 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Phone']
+15:43:29 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone']was found
+15:43:30 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='email']
+15:43:30 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email']was found
+15:43:30 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Address']
+15:43:30 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address']was found
+15:43:31 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='description']
+15:43:31 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description']was found
+15:43:31 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[.='Save']
+15:43:31 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[.='Save']was found
+15:43:31 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: h3
+15:43:32 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: h3was found
+15:43:32 [Test worker] INFO  tests.TestBase - **********************************
+15:43:32 [Test worker] INFO  tests.TestBase - Start test -->registrationTestPositive
+15:43:32 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+15:43:32 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+15:43:32 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+15:43:32 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+15:43:33 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with >>>david2613@gmail.com
+15:43:33 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with >>>David123$
+15:43:33 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()='LOGIN']
+15:43:33 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()='LOGIN']was found
+15:43:33 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: input[1]
+15:43:43 [Test worker] INFO  manager.MyListener - Something went wrong!!
+15:43:43 [Test worker] INFO  manager.MyListener - Unable to locate element: input[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 6492, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e8e51f5d-3c99-4edd-a5d0-71abe7000536
+*** Element info: {Using=xpath, value=input[1]}
+15:43:43 [Test worker] INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: input[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 6492, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e8e51f5d-3c99-4edd-a5d0-71abe7000536
+*** Element info: {Using=xpath, value=input[1]}
+15:43:44 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-2623.png
+15:43:44 [Test worker] INFO  tests.TestBase - **********************************
+15:43:57 [Test worker] INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+15:44:02 [Test worker] INFO  tests.TestBase - Start test -->loginTest2
+15:44:02 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+15:44:12 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+15:44:12 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()='LOGIN']
+15:44:12 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()='LOGIN']was found
+15:44:12 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //input[1]
+15:44:12 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1]was found
+15:44:13 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //input[2]
+15:44:13 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2]was found
+15:44:13 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[1]
+15:44:13 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[1]was found
+15:44:18 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+15:44:18 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+15:44:18 [Test worker] INFO  tests.TestBase - **********************************
+15:44:18 [Test worker] INFO  tests.TestBase - Start test -->addNewContactTest
+15:44:18 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+15:44:18 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+15:44:18 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[@href='/add']
+15:44:19 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[@href='/add']was found
+15:44:19 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[@href='/add']
+15:44:19 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[@href='/add']was found
+15:44:19 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Name']
+15:44:19 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name']was found
+15:44:19 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Last Name']
+15:44:19 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name']was found
+15:44:20 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Phone']
+15:44:20 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone']was found
+15:44:20 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='email']
+15:44:20 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email']was found
+15:44:20 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Address']
+15:44:20 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address']was found
+15:44:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='description']
+15:44:21 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description']was found
+15:44:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[.='Save']
+15:44:21 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[.='Save']was found
+15:44:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: h3
+15:44:22 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: h3was found
+15:44:22 [Test worker] INFO  tests.TestBase - **********************************
+15:44:22 [Test worker] INFO  tests.TestBase - Start test -->registrationTestPositive
+15:44:22 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+15:44:22 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+15:44:22 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+15:44:22 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+15:44:23 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with >>>david2663@gmail.com
+15:44:23 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with >>>David123$
+15:44:23 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()='LOGIN']
+15:44:23 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()='LOGIN']was found
+15:44:23 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: input[1]
+15:44:33 [Test worker] INFO  manager.MyListener - Something went wrong!!
+15:44:33 [Test worker] INFO  manager.MyListener - Unable to locate element: input[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 5564, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0433bb61-350c-4a97-bf6d-0eadba9f6903
+*** Element info: {Using=xpath, value=input[1]}
+15:44:33 [Test worker] INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: input[1]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.45', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 5564, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0433bb61-350c-4a97-bf6d-0eadba9f6903
+*** Element info: {Using=xpath, value=input[1]}
+15:44:34 [Test worker] INFO  manager.MyListener - This link to screenshot with error ---->src/test/screenshots/screenshot-2673.png
+15:44:34 [Test worker] INFO  tests.TestBase - **********************************

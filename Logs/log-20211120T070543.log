@@ -1,0 +1,28 @@
+07:05:59 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+07:06:05 [Test worker] INFO  tests.TestBase - Start test -->removeOneContact
+07:06:05 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+07:06:15 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+07:06:15 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()='LOGIN']
+07:06:15 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()='LOGIN']was found
+07:06:16 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //input[1]
+07:06:16 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1]was found
+07:06:17 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //input[2]
+07:06:17 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2]was found
+07:06:18 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[1]
+07:06:18 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[1]was found
+07:06:19 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+07:06:19 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIMwas found
+07:06:19 [Test worker] INFO  manager.HelperBase - Count of contacts before3
+07:06:19 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+07:06:19 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIMwas found
+07:06:19 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .contact-item_card__2SOIM h3
+07:06:19 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIM h3was found
+07:06:20 [Test worker] INFO  manager.HelperBase - The element that was deleted had phone number --->12345671497
+07:06:20 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+07:06:20 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIMwas found
+07:06:20 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[.='Remove']
+07:06:20 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[.='Remove']was found
+07:06:21 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+07:06:21 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIMwas found
+07:06:21 [Test worker] INFO  manager.HelperBase - Count of contacts2
+07:06:21 [Test worker] INFO  tests.TestBase - **********************************

@@ -1,0 +1,19 @@
+22:35:22 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+22:35:25 [Test worker] INFO  tests.TestBase - Start test -->removeOneContact
+22:35:25 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+22:35:35 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+22:35:35 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()='LOGIN']
+22:35:35 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()='LOGIN']was found
+22:35:35 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //input[1]
+22:35:36 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1]was found
+22:35:37 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //input[2]
+22:35:37 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2]was found
+22:35:37 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[1]
+22:35:38 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[1]was found
+22:35:39 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[.='CONTACTS']
+22:35:39 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[.='CONTACTS']was found
+22:35:39 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: .contact-item_card__2SOIM
+22:35:39 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: .contact-item_card__2SOIMwas found
+22:35:39 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[.='Remove']
+22:35:39 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[.='Remove']was found
+22:35:40 [Test worker] INFO  tests.TestBase - **********************************

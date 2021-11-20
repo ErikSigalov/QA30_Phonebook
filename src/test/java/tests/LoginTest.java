@@ -13,14 +13,14 @@ public class LoginTest extends TestBase {
 
     WebDriver wd;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(app.getUser().isLogged()){
             app.getUser().logout();
         }
     }
 
-    @Test
+    @Test(groups = {"web"})
     public void loginTest2() {
         User user = new User().withEmail("eriknet201@mail.ru").withPassword("Erik12345$");
 

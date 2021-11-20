@@ -11,7 +11,8 @@ repositories {
 
 dependencies {
     implementation 'org.testng:testng:7.4.0'
-    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    implementation 'ch.qos.logback:logback-classic:1.2.5'
 
     compileOnly 'org.projectlombok:lombok:1.18.22'
     annotationProcessor 'org.projectlombok:lombok:1.18.22'
@@ -23,4 +24,30 @@ dependencies {
 
 test {
     useTestNG()
+}
+
+task reg(type: Test){
+
+    useTestNG{
+        def groups = System.getProperty('groups')
+        if (groups != null) {
+            includeGroups groups
+        }
+
+        def suite = System.getProperty('suite', '')
+        if(suite.equals('add')){
+            suites 'src/test/resources/add.xml'
+        }else if(suite.equals('reg')){
+            suites 'src/test/resources/reg.xml'
+        }else{
+            suites 'src/test/resources/testng.xml'
+        }
+
+
+        suites 'src/test/resources/testng.xml'
+    }
+    if(project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+    }
+
 }

@@ -1,0 +1,97 @@
+21:24:36 [Test worker] INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+21:24:39 [Test worker] INFO  tests.TestBase - Start test -->addNewContactTest
+21:24:39 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+21:24:49 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+21:24:49 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[text()='LOGIN']
+21:24:49 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[text()='LOGIN']was found
+21:24:49 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //input[1]
+21:24:49 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //input[1]was found
+21:24:50 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //input[2]
+21:24:51 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //input[2]was found
+21:24:51 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[1]
+21:24:51 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[1]was found
+21:24:52 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[@href='/add']
+21:24:52 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[@href='/add']was found
+21:24:53 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Name']
+21:24:53 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name']was found
+21:24:53 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Last Name']
+21:24:53 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name']was found
+21:24:54 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Phone']
+21:24:54 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone']was found
+21:24:54 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='email']
+21:24:54 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email']was found
+21:24:55 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Address']
+21:24:55 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address']was found
+21:24:55 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='description']
+21:24:55 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description']was found
+21:24:56 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[.='Save']
+21:24:56 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[.='Save']was found
+21:24:56 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: h3
+21:24:56 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: h3was found
+21:24:57 [Test worker] INFO  tests.TestBase - **********************************
+21:24:57 [Test worker] INFO  tests.TestBase - Start test -->addNewContactTest
+21:24:57 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+21:24:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+21:24:57 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[@href='/add']
+21:24:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[@href='/add']was found
+21:24:57 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Name']
+21:24:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name']was found
+21:24:57 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Last Name']
+21:24:57 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name']was found
+21:24:58 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Phone']
+21:24:58 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone']was found
+21:24:58 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='email']
+21:24:58 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email']was found
+21:24:59 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Address']
+21:24:59 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address']was found
+21:25:00 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='description']
+21:25:00 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description']was found
+21:25:01 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[.='Save']
+21:25:01 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[.='Save']was found
+21:25:01 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: h3
+21:25:02 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: h3was found
+21:25:02 [Test worker] INFO  tests.TestBase - **********************************
+21:25:02 [Test worker] INFO  tests.TestBase - Start test -->addNewContactTest
+21:25:02 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+21:25:02 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+21:25:02 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[@href='/add']
+21:25:03 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[@href='/add']was found
+21:25:03 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Name']
+21:25:03 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name']was found
+21:25:03 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Last Name']
+21:25:03 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name']was found
+21:25:04 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Phone']
+21:25:04 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone']was found
+21:25:04 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='email']
+21:25:04 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email']was found
+21:25:05 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Address']
+21:25:05 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address']was found
+21:25:05 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='description']
+21:25:05 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description']was found
+21:25:06 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[.='Save']
+21:25:06 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[.='Save']was found
+21:25:06 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: h3
+21:25:07 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: h3was found
+21:25:07 [Test worker] INFO  tests.TestBase - **********************************
+21:25:07 [Test worker] INFO  tests.TestBase - Start test -->addNewContactTest
+21:25:07 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[text()='Sign Out']
+21:25:07 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[text()='Sign Out']was found
+21:25:07 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //a[@href='/add']
+21:25:07 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //a[@href='/add']was found
+21:25:07 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Name']
+21:25:07 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Name']was found
+21:25:08 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Last Name']
+21:25:08 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Last Name']was found
+21:25:08 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Phone']
+21:25:08 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Phone']was found
+21:25:09 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='email']
+21:25:09 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='email']was found
+21:25:09 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='Address']
+21:25:09 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='Address']was found
+21:25:09 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: [placeholder='description']
+21:25:09 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: [placeholder='description']was found
+21:25:10 [Test worker] INFO  manager.MyListener - start search element by locator --->By.xpath: //button[.='Save']
+21:25:10 [Test worker] INFO  manager.MyListener - The element with locator ---> By.xpath: //button[.='Save']was found
+21:25:10 [Test worker] INFO  manager.MyListener - start search element by locator --->By.cssSelector: h3
+21:25:10 [Test worker] INFO  manager.MyListener - The element with locator ---> By.cssSelector: h3was found
+21:25:11 [Test worker] INFO  tests.TestBase - **********************************
