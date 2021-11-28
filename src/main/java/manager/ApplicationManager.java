@@ -43,13 +43,16 @@ public class ApplicationManager {
     }
 
     public void stop(){
+
         wd.quit();
     }
     public HelperUser getUser() {
+
         return user;
     }
 
     public ContactHelper contact() {
+
         return contact;
     }
 }
