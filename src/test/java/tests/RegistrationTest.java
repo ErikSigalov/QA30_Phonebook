@@ -25,7 +25,7 @@ public class RegistrationTest extends TestBase{
     public void registrationTestPositive(){
 
         int i=(int) (System.currentTimeMillis()/1000)%3600;
-        String email = "sfghg"+ i + "@gmail.com";
+        String email = "sfghjg1"+ i + "@gmail.com";
         String password ="David123$";
         System.out.println("Email: " +email);
         logger.info("Test Registration Positive starts with >>>" + email);
