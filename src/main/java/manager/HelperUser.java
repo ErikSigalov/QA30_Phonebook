@@ -28,12 +28,15 @@ public class HelperUser extends HelperBase{
         click(By.xpath("//a[text()='LOGIN']"));
     }
     public void submitLogin(){
+
         click(By.xpath("//button[1]"));
     }
-    public boolean isLogged(){
+    public boolean isLogged()
+    {
         return isElementPresent(By.xpath("//button[text()='Sign Out']"));
     }
     public void logout(){
+
         click(By.xpath("//button[text()='Sign Out']"));
     }
     public boolean isAlertPresent() {

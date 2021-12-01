@@ -3,6 +3,7 @@ package tests;
 import models.Contact;
 import models.User;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -34,6 +35,13 @@ public class AddNewContactTest extends TestBase {
             //Assert.assertTrue(app.getUser().isMainContactPagePresent());
             Assert.assertTrue(app.contact().isContactCreated(contact.getPhone()));
         }
+
+    @AfterMethod
+    public void stop() {
+
+        app.stop();
+    }
+
     }
 
 

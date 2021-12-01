@@ -36,6 +36,10 @@ public class LoginTest extends TestBase {
         //Assert.assertTrue(isElementPresent(By.xpath("//button[text()='Sign Out']")));
         Assert.assertTrue(app.getUser().isLogged());
     }
+    @AfterMethod
+    public void stop(){
 
+        app.stop();
+    }
 
 }
