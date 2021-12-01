@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">12.114s</div>
+<div class="counter">4.665s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,101 +61,13 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Tests</a>
-</li>
-<li>
-<a href="#tab2">Standard output</a>
+<a href="#tab1">Standard output</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="registrationTestPositive"></a>
-<h3 class="failures">registrationTestPositive</h3>
-<span class="code">
-<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;input[1]&quot;}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54088}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d7559efc69d6a5904bd194f9235eaa6d
-*** Element info: {Using=xpath, value=input[1]}
-	at manager.MyListener.onException(MyListener.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy11.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy12.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at manager.HelperBase.type(HelperBase.java:30)
-	at manager.HelperUser.fillLoginRegistrationForm(HelperUser.java:17)
-	at tests.RegistrationTest.registrationTestPositive(RegistrationTest.java:35)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
-	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.stop(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:135)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.lang.Thread.run(Thread.java:748)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -166,48 +78,41 @@ Session ID: d7559efc69d6a5904bd194f9235eaa6d
 </tr>
 </thead>
 <tr>
-<td class="failures">registrationTestPositive</td>
-<td class="failures">12.114s</td>
-<td class="failures">failed</td>
+<td class="success">registrationTestPositive</td>
+<td class="success">4.665s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>22:05:38 [Test worker] INFO  tests.TestBase - Start test --&gt;registrationTestPositive
+<pre>18:21:34 [Test worker] INFO  tests.TestBase - Start test --&gt;registrationTestPositive
 Hello
-22:05:38 [Test worker] INFO  manager.MyListener - start search element by locator ---&gt;By.xpath: //button[text()='Sign Out']
-22:05:49 [Test worker] INFO  manager.MyListener - The element with locator ---&gt; By.xpath: //button[text()='Sign Out']was found
-Email: david349@gmail.com
-22:05:49 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with &gt;&gt;&gt;david349@gmail.com
-22:05:49 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with &gt;&gt;&gt;David123$
+18:21:34 [Test worker] INFO  manager.MyListener - start search element by locator ---&gt;By.xpath: //button[text()='Sign Out']
+18:21:45 [Test worker] INFO  manager.MyListener - The element with locator ---&gt; By.xpath: //button[text()='Sign Out']was found
+Email: sfg1305@gmail.com
+18:21:45 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with &gt;&gt;&gt;sfg1305@gmail.com
+18:21:45 [Test worker] INFO  tests.TestBase - Test Registration Positive starts with &gt;&gt;&gt;David123$
 Hello
-22:05:49 [Test worker] INFO  manager.MyListener - start search element by locator ---&gt;By.xpath: //a[text()='LOGIN']
-22:05:49 [Test worker] INFO  manager.MyListener - The element with locator ---&gt; By.xpath: //a[text()='LOGIN']was found
+18:21:45 [Test worker] INFO  manager.MyListener - start search element by locator ---&gt;By.xpath: //a[text()='LOGIN']
+18:21:45 [Test worker] INFO  manager.MyListener - The element with locator ---&gt; By.xpath: //a[text()='LOGIN']was found
 Hello
-22:05:49 [Test worker] INFO  manager.MyListener - start search element by locator ---&gt;By.xpath: input[1]
-22:06:00 [Test worker] INFO  manager.MyListener - Something went wrong!!
-22:06:00 [Test worker] INFO  manager.MyListener - no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;input[1]&quot;}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54088}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d7559efc69d6a5904bd194f9235eaa6d
-*** Element info: {Using=xpath, value=input[1]}
-22:06:00 [Test worker] INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;input[1]&quot;}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-5I9HDR9', ip: '192.168.1.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54088}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d7559efc69d6a5904bd194f9235eaa6d
-*** Element info: {Using=xpath, value=input[1]}
-22:06:01 [Test worker] INFO  manager.MyListener - This link to screenshot with error ----&gt;src/test/screenshots/screenshot-360.png
-22:06:16 [Test worker] INFO  tests.TestBase - **********************************
+18:21:46 [Test worker] INFO  manager.MyListener - start search element by locator ---&gt;By.xpath: //input[1]
+18:21:46 [Test worker] INFO  manager.MyListener - The element with locator ---&gt; By.xpath: //input[1]was found
+Hello
+18:21:47 [Test worker] INFO  manager.MyListener - start search element by locator ---&gt;By.xpath: //input[1]
+18:21:47 [Test worker] INFO  manager.MyListener - The element with locator ---&gt; By.xpath: //input[1]was found
+Hello
+18:21:47 [Test worker] INFO  manager.MyListener - start search element by locator ---&gt;By.xpath: //input[2]
+18:21:47 [Test worker] INFO  manager.MyListener - The element with locator ---&gt; By.xpath: //input[2]was found
+Hello
+18:21:48 [Test worker] INFO  manager.MyListener - start search element by locator ---&gt;By.xpath: //button[2]
+18:21:48 [Test worker] INFO  manager.MyListener - The element with locator ---&gt; By.xpath: //button[2]was found
+Hello
+18:21:48 [Test worker] INFO  manager.MyListener - start search element by locator ---&gt;By.xpath: //button[text()='Sign Out']
+18:21:49 [Test worker] INFO  manager.MyListener - The element with locator ---&gt; By.xpath: //button[text()='Sign Out']was found
+18:21:57 [Test worker] INFO  tests.TestBase - **********************************
 </pre>
 </span>
 </div>
@@ -219,7 +124,7 @@ Session ID: d7559efc69d6a5904bd194f9235eaa6d
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.1</a> at 28.11.2021 22:06:16</p>
+<a href="http://www.gradle.org">Gradle 7.1</a> at 01.12.2021 18:21:58</p>
 </div>
 </div>
 </body>
